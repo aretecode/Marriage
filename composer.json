@@ -1,0 +1,18 @@
+{
+	"name": "marriage",    
+	"description": "MarriagES is an example event sourced system for dealing with (2 or more) partners getting married with the future in mind.",
+    "authors": [
+        {"name": "Arete Code", "email": "aretecode@gmail.com"}
+    ],
+    "license": "BSD-2-Clause",
+    "keywords": ["marriage", "eventsourced", "kinship"],
+    "autoload": {
+        "psr-4": {
+            "Marriage\\": "src/"
+        }    
+    },    
+
+    "require": {
+        "broadway/broadway": "~0.5.2"
+    }     
+}
