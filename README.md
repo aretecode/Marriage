@@ -6,26 +6,26 @@ After reading [Gay marriage: the database engineering perspective:](http://qntm.
 ## Todo 
 
 ### .Partner
-can EventSource as well, use standard types, extend with *noun* details & could be queried
+* can EventSource as well, use standard types, extend with *noun* details & could be queried
 
 ### .Marriage
-easy to extend to add additional data such as ```[location] [guests > rank (best, normal, parent)] [preacher] [vows] [comments] [engagement]```
-could abstract to make ```Marry``` the same as ```Create Marriage```
+* easy to extend to add additional data such as ```[location] [guests > rank (best, normal, parent)] [preacher] [vows] [comments] [engagement]```
+* could abstract to make ```Marry``` the same as ```Create Marriage```
 
 ### Naming & Syntax
-could change all ```PartnerIds``` to ```Partners```
-could format it according to the [PSR-2 standard](http://www.php-fig.org/psr/psr-2/)
-::transferFromWriteToRead is a real lame/shamefull hack, suggestions on how to change are welcome
+* could change all ```PartnerIds``` to ```Partners```
+* could format it according to the [PSR-2 standard](http://www.php-fig.org/psr/psr-2/)
+* ::transferFromWriteToRead is a real lame/shamefull hack, suggestions on how to change are welcome
 
 ### Libraries & Implementation
-would love to see it using Doctrine, Aura.SQL & using SQL or Mongo or anything else.
-cool to see a little html & js page using it
-could have Divorce|MarryAll application usage
-use a lib (maybe put mine up) for Specification
+* would love to see it using Doctrine, Aura.SQL & using SQL or Mongo or anything else.
+* cool to see a little html & js page using it
+* could have Divorce|MarryAll application usage
+* use a lib (maybe put mine up) for Specification
 
 ### Tests
-If people show interest in this, I'll write tests
-Try [Travis](travis-ci.org)
+* If people show interest in this, I'll write tests
+* Try [Travis](travis-ci.org)
 
 ###Examples
-Flush out the examples in the index for more uses, pre-tests
+* Flush out the examples in the index for more uses, pre-tests
